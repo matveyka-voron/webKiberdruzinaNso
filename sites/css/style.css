@@ -1,0 +1,280 @@
+body {
+    background-color: #ededed;
+}
+
+.but {
+    transition: 1s;
+}
+
+#complaintp {
+    width: 200px;
+    font-size: 18px;
+    height: 50px;
+    background-color: #ed7474;
+    white-space: pre-line;
+    transition: 1s;
+}
+
+#complaintp:hover {
+    background-color: red;
+    transition: 1s;
+}
+
+.but:hover {
+    transition: 1s;
+}
+
+.adsense {
+    width: 20%;
+    transition: 0.6s;
+}
+
+.adsenseYa {
+    width: 20%;
+}
+
+.adsense:hover {
+    width: 21%;
+    transition: 0.6s;
+}
+
+#text {
+    color: #454545;
+    margin-left: 5px;
+    margin-right: 30px;
+    font-size: 25px;
+    white-space: pre-line;
+    background-color: white;
+}
+
+#logot {
+    width: 75%;
+}
+
+#ourProject {
+    width: 175px;
+    font-size: 18px;
+    height: 45px;
+    background-color: gainsboro;
+    white-space: pre-line;
+}
+
+#kiberdruzinaVolonter {
+    width: 175px;
+    font-size: 18px;
+    height: 45px;
+    background-color: gainsboro;
+    white-space: pre-line;
+}
+
+#dey {
+    width: 175px;
+    font-size: 18px;
+    height: 45px;
+    background-color: gainsboro;
+    white-space: pre-line;
+}
+
+.mobileAd {
+    display: none;
+}
+
+#dey:hover {
+    background-color: red;
+}
+
+#adsenseSite {
+    width: 175px;
+    font-size: 18px;
+    height: 45px;
+    background-color: gainsboro;
+    white-space: pre-line;
+}
+
+#adsenseSite:hover {
+    background-color: red;
+}
+
+#ourProject:hover {
+    background-color: red;
+}
+
+#kiberdruzinaVolonter:hover {
+    background-color: red;
+}
+
+#kiberdruzinaVolonter2 {
+    display: none;
+}
+
+.projects {
+    font-size: 20px;
+    color: #454545;
+}
+
+.url_rroj {
+    color: #454545
+}
+
+.url_rroj:hover {
+    color: red;
+}
+
+.text_adsense {
+    font-size: 20px;
+}
+
+.adsenseImg {
+    width: 45%;
+}
+
+#newsBut {
+    width: 175px;
+    font-size: 18px;
+    height: 45px;
+    background-color: gainsboro;
+    white-space: pre-line;
+}
+
+#newsBut:hover {
+    background-color: red;
+}
+
+.logoProject {
+    width: 30%;
+    margin-left: 25px;
+    margin-right: 25px;
+    float: left;
+}
+
+.presentText {
+    font-size: 35px;
+}
+
+#mapPhone {
+    display: none;
+}
+
+#videoVkIndex {
+    width: 70%;
+}
+
+.textStat {
+    white-space: pre-line;
+    font-size: 65;
+}
+
+#photoStat {
+    width: 60%;
+}
+
+.urlText {
+    display: none;
+}
+
+@media screen and (max-width: 1000px) {
+    #logot {
+        width: 100%;
+    }
+    .textStat {
+        white-space: pre-line;
+        font-size: 60;
+    }
+    #photoStat {
+        width: 100%;
+    }
+    .mobileAd {
+        display: inline;
+    }
+    .urlText {
+        display: inline;
+        font-size: 40;
+    }
+    #videoVkIndex {
+        display: none;
+    }
+    #ourProject {
+        background-color: gainsboro;
+        width: 225px;
+        height: 145px;
+        font-size: 31px;
+        white-space: pre-line;
+    }
+    #complaintp {
+        width: 350px;
+        height: 180px;
+        font-size: 37px;
+        background-color: #ed7474;
+        display: inline;
+        white-space: pre-line
+    }
+    #adsenseSite {
+        background-color: gainsboro;
+        width: 255px;
+        height: 175px;
+        font-size: 40px;
+        white-space: pre-line
+    }
+    #kiberdruzinaVolonter {
+        display: none;
+    }
+    #volonter {
+        height: 100%;
+    }
+    #kiberdruzinaVolonter2 {
+        display: inline;
+        background-color: gainsboro;
+        font-size: 38.5px;
+        white-space: pre-line;
+        width: 255px;
+        height: 175px;
+    }
+    #newsBut {
+        background-color: gainsboro;
+        font-size: 40px;
+        white-space: pre-line;
+        width: 255px;
+        height: 175px;
+    }
+    #text {
+        margin-right: 15px;
+    }
+    #ourProject:pressed {
+        background-color: red;
+    }
+    #kiberdruzinaVolonter2:pressed {
+        color: red;
+    }
+    #adsense {
+        display: none;
+    }
+    .foot {
+        display: none;
+    }
+    #adsenseFoot {
+        display: none;
+    }
+    #vk_ask {
+        display: none;
+    }
+    #ourProject {
+        display: none;
+    }
+    .adsenseImg {
+        width: 100%;
+    }
+    #textNews {
+        font-size: 50px;
+    }
+    .logoProject {
+        display: none;
+    }
+    #dey {
+        display: none;
+    }
+    #mapPhone {
+        display: inline;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
